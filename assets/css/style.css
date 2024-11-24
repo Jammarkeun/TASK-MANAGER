@@ -1,0 +1,57 @@
+:root {
+    --orange: #ff6b00;
+    --dark: #121212;
+}
+
+body {
+    background-color: var(--dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-orange {
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #ff8533;
+    transform: translateY(-2px);
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-item {
+    background-color: #1e1e1e;
+    border-left: 4px solid var(--orange);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(255,107,0,0.2);
+}
+
+.form-control {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #2d2d2d;
+    border-color: var(--orange);
+    box-shadow: 0 0 0 0.2rem rgba(255,107,0,0.25);
+    color: white;
+}
